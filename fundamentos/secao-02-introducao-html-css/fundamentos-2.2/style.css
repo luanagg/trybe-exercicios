@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
+
+body {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 16px;
+    background: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+.sobre_trybe {
+    text-align: justify;
+    width: 600px;
+}
+
+.perfil {
+    display: inline-block;
+    margin-top: 50px;
+    text-align: justify;
+    margin: 20px 50px 50px 50px;
+    border: 2px solid deeppink;
+    border-radius: 20px;
+    background-color: rgba(236, 87, 234, 0.089);
+    box-shadow: 2px 2px 1px 1px rgba(255, 255, 255, 0.368);
+}
+
+
+#perfil_foto {
+    border-radius: 80%;
+
+    margin-top: 0px;
+    padding: 30px;
+    
+}
+
+.perfil_p {
+    text-align: justify;
+    width: 400px;
+    display: inline-block;
+    margin: 40px 80px 40px 10px;
+}
+
+ul {
+    text-decoration: none;
+}
+a{
+    text-decoration: none;
+    color: deeppink;
+    margin: 20px;
+}
+
+span {
+    background-color: deeppink;
+}
